@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.3)
+project(ch_1)
+
+add_executable(7_1 7_1_main.c)
+add_executable(7_2 7_2_main.c)
+add_executable(7_3 7_3_main.c)
+add_executable(7_4 7_4_main.c)
+add_executable(7_5 7_5_main.c)
+add_executable(7_6 7_6_main.c)
+add_executable(7_7 7_7_main.c)
+add_executable(7_8 7_8_main.c)
+add_executable(7_9 7_9_main.c)

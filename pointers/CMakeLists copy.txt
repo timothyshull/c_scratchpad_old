@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+project(pointers)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+add_executable(ch1 ch1.c)
+add_executable(ch2 ch2.c)
+add_executable(test_pre test.c)
+add_executable(test_pre_post test.pre.c)
+add_executable(ch3 ch3.c)
+add_executable(ch4 ch4.c)

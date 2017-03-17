@@ -1,0 +1,14 @@
+CXX=clang++
+CXXFLAGS=-Wall
+SRCS = $(wildcard *.cpp)
+OBJS = $(wildcard *.o)
+
+all: $(OBJS)
+	ar ru libjohpaul.a $^
+	ranlib libjohnpaul.a
+
+$(OBJS): %.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c -o $<.o $@.cpp
+
+# clean:
+# 	rm -f *.o

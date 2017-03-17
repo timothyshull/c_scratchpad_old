@@ -1,0 +1,12 @@
+project(ch_2)
+
+add_executable(2_1 2_1_main.c)
+add_executable(2_2 2_2_main.c)
+add_executable(2_3 2_3_main.c)
+add_executable(2_4 2_4_main.c)
+add_executable(2_5 2_5_main.c)
+add_executable(2_6 2_6_main.c)
+add_executable(2_7 2_7_main.c)
+add_executable(2_8 2_8_main.c)
+add_executable(2_9 2_9_main.c)
+add_executable(2_10 2_10_main.c)
